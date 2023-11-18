@@ -49,8 +49,7 @@ export default function AllData() {
       <h1 style={{ textAlign: "center" }}>All Data</h1>
       {userName && <h1>Welcome: {userName}</h1>}
 
-      {/* <div style={{ margin: 100, display: "flex", justifyContent: "space-around", flexWrap: "wrap", flexDirection: "row" }}> */}
-        {/* Rest of your code */}
+     
       {/* </div> */}
       <div style={{ margin: 100, display: "flex", justifyContent: "space-around", flexWrap: "wrap", flexDirection: "row" }}>
       {userData &&
