@@ -30,7 +30,7 @@ export default function AllData() {
 
         // Assuming data contains user information after successful login
         if (data && data.users && data.users.length > 0) {
-          const loggedInUser = data.users.find(user => user.loggedIn === true); // Adjust this based on your API response structure
+          const loggedInUser = data.users.find(user => user.loggedIn === true); 
           if (loggedInUser) {
             setUserName(`${loggedInUser.firstName} ${loggedInUser.lastName}`);
           }
@@ -43,7 +43,6 @@ export default function AllData() {
     fetchData();
   }, []);
   
-  // Rest of your code remains unchanged...
 
   return (
     <>
