@@ -1,0 +1,40 @@
+
+
+.card:hover {
+  background-color: green !important;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  transition: all 0.6s ease;
+
+}
+
+.card:hover h1,
+.card:hover h3,
+.card:hover h4 {
+  color: rgb(245, 242, 242) !important;
+  font-size: 18px;
+  transition: all 0.6s ease;
+
+
+}
+Button:hover{
+  background-color: rgb(43, 57, 96) !important;
+  color:white !important;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  font-size: 18px;
+
+
+}
+
+
+/* @media screen and (max-width: 370px) {
+  body {
+    background-image: url('../assets/images/back.jpg');
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* width: auto;
+    height: 100%;
+  }
+} */
