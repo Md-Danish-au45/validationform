@@ -72,14 +72,13 @@ export default function SignUp() {
         });
     };
     const calculateAge = (birthDate) => {
-        if (!birthDate) return ''; // Return empty string if no birthDate is selected
+        if (!birthDate) return '';
 
         const today = dayjs();
         const years = today.diff(birthDate, 'year');
         const dobPlusYears = birthDate.add(years, 'year');
         const months = today.diff(dobPlusYears, 'month');
 
-        // You can customize the age representation according to your requirements
         return `${years} years ${months} months`;
     };
     const handleGenderChange = (event) => {
